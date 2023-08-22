@@ -1,0 +1,43 @@
+.btn {
+	position: relative;
+	align-items: center;
+	border: none;
+	display: inline-flex;
+	justify-content: center;
+	vertical-align: bottom;
+	white-space: nowrap;
+	text-decoration: none;
+	cursor: pointer;
+}
+.btn-light {
+	background: #fff;
+	color: #101112;
+	padding: 0 12px;
+	border: 1px solid #101112;
+}
+.btn-dark {
+	background: #101112;
+	border: 1px solid #101112;
+	color: #fff;
+	padding: 0 12px;
+}
+.btn-dark a,
+.btn-light a {
+	text-decoration: none;
+}
+.btn-dark a:visited {
+	color: #fff;
+}
+.btn-light a:visited {
+	color: #101112;
+}
+/* drop down */
+.dropdown-item {
+	display: none;
+	background-color: #fff;
+	position: absolute;
+	box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.08);
+}
+.dropdown:hover .dropdown-item {
+	display: block;
+}

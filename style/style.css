@@ -1,0 +1,183 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+/* ==========================================================================*/
+.navbar-containor {
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08), 0 4px 12px rgba(0, 0, 0, 0.08);
+	z-index: 1010;
+}
+.navbar-containor {
+	height: 72px;
+	padding: 4px;
+}
+.navbar {
+	display: flex;
+	align-items: center;
+	background: #fff;
+	width: 100%;
+	height: 70px;
+	padding: 24px;
+	position: relative;
+	z-index: 1010;
+}
+.nav-items {
+	margin: 0 5px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+}
+.udemy-logo {
+	display: block;
+	width: 91px;
+	height: 34;
+	padding-right: 1.8rem;
+}
+
+.catg {
+	display: flex;
+	align-items: center;
+	margin: 0 20px;
+	position: relative;
+}
+
+.ctgdropdown-items {
+	top: 40px;
+	left: 0px;
+	width: 250px;
+	height: 400px;
+}
+.ctgdropdown-items > DIV {
+	margin: 10px;
+}
+
+.ctgdrop-item {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 10px;
+}
+
+.catg button {
+	border: none;
+	background: transparent;
+}
+.search-bar {
+	flex-grow: 1;
+	border: 1px solid #101112;
+	border-radius: 50px;
+	margin-right: 20px;
+}
+.search-menu {
+	display: flex;
+	align-items: center;
+}
+.search-menu input {
+	width: 90%;
+	padding: 0 2px;
+}
+.search-icon {
+	padding: 12px;
+}
+.search-menu input,
+.search-menu input:focus-visible {
+	outline: none;
+	border: none;
+}
+.ud-business {
+	margin: 0 2px;
+	position: relative;
+}
+.ud-tech {
+	margin: 0 2px;
+	position: relative;
+}
+.dropdown-item h4 {
+	font-size: 1.2rem;
+}
+.techdd {
+	position: absolute;
+	top: 42px;
+	left: 0px;
+	width: 320px;
+	height: 160px;
+}
+.techitms {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 14px;
+	text-align: center;
+}
+.techitms h4 {
+	margin-bottom: 10px;
+}
+.cart {
+	margin: 0 10px;
+}
+.nav-btn {
+	min-width: 80px;
+	display: flex;
+	height: 40px;
+	margin: 0 2px;
+}
+.btn-globe {
+	height: 40px;
+	max-width: 40px;
+}
+/* hero banner */
+.head-banner {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 70px;
+}
+.banner {
+	position: relative;
+}
+.banner-text-box {
+	background-color: #fff;
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	padding: 30px;
+	width: 400px;
+	height: 150px;
+	top: 50px;
+	left: 85px;
+	text-align: justify;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08), 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+.banner-text-box h3,
+.banner-text-box p {
+	margin-bottom: 20px;
+}
+/* partner companies */
+.companies {
+	background-color: #f7f9fa;
+}
+.companies-containor {
+	margin-left: auto;
+	margin-right: auto;
+	width: 60vw;
+}
+.logos-part {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 64px;
+	width: 100%;
+}
+.logos-part .logos-text {
+	color: #6a6f73;
+	font-size: 1.2rem;
+	margin-bottom: 10px;
+}
+.logos-part .logos-pic {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
