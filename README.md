@@ -1,3 +1,3 @@
-# udemy-clone-season-6practice
-this is a practice/.
-i just testing it , if something is wrong just tell me!!
+# udemy-clone-season-6-practice
+
+this is a practice!!
