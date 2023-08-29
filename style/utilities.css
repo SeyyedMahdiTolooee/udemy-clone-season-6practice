@@ -8,18 +8,17 @@
 	white-space: nowrap;
 	text-decoration: none;
 	cursor: pointer;
+	padding: 6px 12px;
 }
 .btn-light {
 	background: #fff;
 	color: #101112;
-	padding: 0 12px;
 	border: 1px solid #101112;
 }
 .btn-dark {
 	background: #101112;
 	border: 1px solid #101112;
 	color: #fff;
-	padding: 0 12px;
 }
 .btn-dark a,
 .btn-light a {
@@ -40,4 +39,15 @@
 }
 .dropdown:hover .dropdown-item {
 	display: block;
+}
+.tabbtn {
+	background: transparent;
+	color: #535353;
+	padding: 2px 10px;
+}
+.tabbtn-active {
+	background-color: #535353;
+	color: #fff;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
 }
