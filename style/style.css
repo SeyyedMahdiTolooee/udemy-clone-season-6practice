@@ -206,34 +206,47 @@
 }
 .tabs {
 	display: flex;
+	border: 1px solid red;
+}
+.tabs div {
+	/* padding-right: 10px; */
+	color: #c0c0c0;
 }
 .tabview {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
 	border: 1px solid gray;
 }
 .tabview .text {
-	margin: 15px;
+	margin: 25px;
+	width: 90%;
 }
 .tabview h3 {
 	font-size: 1.2rem;
 	font-weight: 600;
+	line-height: 3rem;
 }
 .tabview p {
-	font-size: 0.9rem;
-}
-
-.tabs div {
-	padding-right: 10px;
-	color: #c0c0c0;
+	line-height: 1.5rem;
+	max-width: 880px;
 }
 
 /* slideshow */
+.slideshow {
+	width: 95%;
+	height: 400px;
+	margin: 0 auto;
+	border: 1px solid red;
+}
 .slideshow-container {
 	position: absolute;
 	height: 200px;
-	border: 1px solid red;
+	/* border: 1px solid red; */
 }
-.slideshow-item {
+.slideshow-card {
 	display: flex;
+	width: 240px;
 	flex-direction: column;
 	align-items: center;
 }
