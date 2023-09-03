@@ -206,7 +206,7 @@
 }
 .tabs {
 	display: flex;
-	border: 1px solid red;
+	/* border: 1px solid red; */
 }
 .tabs div {
 	/* padding-right: 10px; */
@@ -235,18 +235,37 @@
 /* slideshow */
 .slideshow {
 	width: 95%;
-	height: 400px;
+	height: 260px;
 	margin: 0 auto;
-	border: 1px solid red;
+	position: relative;
+	display: flex;
+	align-items: center;
+	/* border: 1px solid red; */
 }
 .slideshow-container {
 	position: absolute;
-	height: 200px;
-	/* border: 1px solid red; */
+	height: 250px;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	border: 1px solid red;
 }
 .slideshow-card {
 	display: flex;
-	width: 240px;
+	width: 250px;
 	flex-direction: column;
 	align-items: center;
+}
+.slides-chevron {
+	position: absolute;
+	top: 50%;
+	right: -10px;
+}
+.slides-chevron i {
+	padding: 20px;
+	background-color: #6a6f73;
+	border-radius: 50%;
+}
+.slideshow-card p {
+	color: #6a6f73;
 }

@@ -50,3 +50,21 @@
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
 }
+
+/* rating */
+.rating {
+	color: gold;
+	display: flex;
+	align-items: center;
+}
+.rating-star {
+	display: flex;
+	align-items: center;
+	margin: 5px;
+}
+.rating i {
+	font-size: 0.8rem;
+}
+.half-full{
+	
+}

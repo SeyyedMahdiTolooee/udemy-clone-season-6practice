@@ -17,7 +17,7 @@ a {
 }
 
 p {
-	margin-bottom: 1rem;
+	/* margin-bottom: 1rem; */
 }
 
 h1,
@@ -48,12 +48,15 @@ h4 {
 }
 
 h5 {
-	font-size: 1.25rem;
+	font-size: 1rem;
 }
 
 .small,
-.text_small {
+.text-small {
 	font-size: 0.8rem;
+}
+.extra-small {
+	font-size: 0.7rem;
 }
 li {
 	list-style: none;
