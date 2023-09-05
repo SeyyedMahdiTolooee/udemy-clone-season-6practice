@@ -216,6 +216,7 @@
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
+	height: 550px;
 	border: 1px solid gray;
 }
 .tabview .text {
@@ -240,7 +241,6 @@
 	position: relative;
 	display: flex;
 	align-items: center;
-	/* border: 1px solid red; */
 }
 .slideshow-container {
 	position: absolute;
@@ -248,24 +248,28 @@
 	display: flex;
 	align-items: center;
 	width: 100%;
-	border: 1px solid red;
+	/* border: 1px solid red; */
 }
 .slideshow-card {
+	margin-right: 5px;
 	display: flex;
-	width: 250px;
+	width: 240px;
 	flex-direction: column;
 	align-items: center;
+	/* border: 1px solid red; */
 }
+.slideshow-card img {
+	width: 99%;
+}
+
 .slides-chevron {
 	position: absolute;
-	top: 50%;
-	right: -10px;
+	right: -1rem;
+	top: 19%;
+	font-size: 2.5rem;
+	color: #6a6f73;
 }
-.slides-chevron i {
-	padding: 20px;
-	background-color: #6a6f73;
-	border-radius: 50%;
-}
+
 .slideshow-card p {
 	color: #6a6f73;
 }
