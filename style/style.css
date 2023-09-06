@@ -273,3 +273,17 @@
 .slideshow-card p {
 	color: #6a6f73;
 }
+/* quote-container */
+.quote-container {
+	padding-top: 64px;
+
+	background-color: #f7f9fa;
+}
+.quote {
+	width: 100%;
+	max-width: 1300px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 2.4rem;
+	padding-left: 2.4rem;
+}

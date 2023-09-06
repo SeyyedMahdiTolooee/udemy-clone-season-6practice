@@ -45,8 +45,8 @@
 	color: #535353;
 }
 .tabbtn-active {
-	background-color: #9d9d9d;
-	color: #fff;
+	background-color: #dfdede;
+	color: #535353;
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
 }
@@ -64,7 +64,4 @@
 }
 .rating i {
 	font-size: 0.8rem;
-}
-.half-full{
-	
 }
