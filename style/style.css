@@ -246,20 +246,29 @@
 	position: absolute;
 	height: 250px;
 	display: flex;
-	align-items: center;
+	align-items: flex-start;
 	width: 100%;
-	/* border: 1px solid red; */
 }
 .slideshow-card {
 	margin-right: 5px;
 	display: flex;
-	width: 240px;
 	flex-direction: column;
 	align-items: center;
-	/* border: 1px solid red; */
+	/* justify-content: space-between; */
+	height: 100%;
+	width: 240px;
 }
 .slideshow-card img {
 	width: 99%;
+}
+.sl-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 100%;
+}
+.sl-teacher{
+	
 }
 
 .slides-chevron {
@@ -276,7 +285,6 @@
 /* quote-container */
 .quote-container {
 	padding-top: 64px;
-
 	background-color: #f7f9fa;
 }
 .quote {
@@ -286,4 +294,20 @@
 	margin-left: auto;
 	padding-right: 2.4rem;
 	padding-left: 2.4rem;
+}
+.quote-card-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.qoute-card {
+	width: 389px;
+	padding: 24px;
+	border: 1px solid lightgray;
+	padding: 20px;
+	background-color: #fff;
+	height: 100%;
+}
+.qoute-card img {
+	width: 20px;
 }
