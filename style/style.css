@@ -216,7 +216,7 @@
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
-	height: 550px;
+	height: 500px;
 	border: 1px solid gray;
 }
 .tabview .text {
@@ -228,9 +228,10 @@
 	font-weight: 600;
 	line-height: 3rem;
 }
-.tabview p {
-	line-height: 1.5rem;
+.tabview .text p {
+	line-height: 1.8rem;
 	max-width: 880px;
+	/* border: 1px solid red; */
 }
 
 /* slideshow */
@@ -267,22 +268,29 @@
 	justify-content: space-between;
 	height: 100%;
 }
-.sl-teacher{
-	
+.sl-titr {
+	margin-bottom: 2px;
 }
 
 .slides-chevron {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 40px;
+	height: 40px;
 	position: absolute;
-	right: -1rem;
-	top: 19%;
-	font-size: 2.5rem;
-	color: #6a6f73;
+	right: -15px;
+	top: 18%;
+	font-size: 1.5rem;
+	color: #ffffff;
+	background-color: #6a6f73;
+	border-radius: 50%;
 }
 
 .slideshow-card p {
 	color: #6a6f73;
 }
-/* quote-container */
+/* quotes */
 .quote-container {
 	padding-top: 64px;
 	background-color: #f7f9fa;
@@ -299,12 +307,13 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	overflow: hidden;
 }
 .qoute-card {
 	width: 389px;
+	min-width: 340px;
 	padding: 24px;
 	border: 1px solid lightgray;
-	padding: 20px;
 	background-color: #fff;
 	height: 100%;
 }
