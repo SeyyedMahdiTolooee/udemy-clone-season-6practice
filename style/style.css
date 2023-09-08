@@ -273,18 +273,9 @@
 }
 
 .slides-chevron {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	width: 40px;
-	height: 40px;
 	position: absolute;
 	right: -15px;
 	top: 18%;
-	font-size: 1.5rem;
-	color: #ffffff;
-	background-color: #6a6f73;
-	border-radius: 50%;
 }
 
 .slideshow-card p {
@@ -302,12 +293,18 @@
 	margin-left: auto;
 	padding-right: 2.4rem;
 	padding-left: 2.4rem;
+	position: relative;
+}
+.quote-body {
+	position: relative;
 }
 .quote-card-container {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	overflow: hidden;
+	position: relative;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08), 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 .qoute-card {
 	width: 389px;
@@ -316,7 +313,13 @@
 	border: 1px solid lightgray;
 	background-color: #fff;
 	height: 100%;
+	margin-right: 10px;
 }
 .qoute-card img {
 	width: 20px;
+}
+.quote-chevron {
+	position: absolute;
+	top: 10px;
+	right: 10px;
 }
