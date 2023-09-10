@@ -1,3 +1,6 @@
+.mp-gray {
+	background-color: #f7f9fa;
+}
 .btn {
 	position: relative;
 	align-items: center;
@@ -65,7 +68,7 @@
 .rating i {
 	font-size: 0.8rem;
 }
-.chevron{
+.chevron {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -75,4 +78,13 @@
 	color: #ffffff;
 	background-color: #6a6f73;
 	border-radius: 50%;
+}
+.ud-container {
+	padding-top: 64px;
+	width: 100%;
+	max-width: 1320px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 2.4rem;
+	padding-left: 2.4rem;
 }

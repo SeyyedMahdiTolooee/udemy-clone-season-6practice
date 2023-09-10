@@ -188,15 +188,6 @@
 	justify-content: space-between;
 }
 /* selected courses */
-.selected-courses {
-	padding-top: 64px;
-	width: 100%;
-	max-width: 1300px;
-	margin-right: auto;
-	margin-left: auto;
-	padding-right: 2.4rem;
-	padding-left: 2.4rem;
-}
 
 .sctext {
 	margin: 20px;
@@ -255,7 +246,7 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	/* justify-content: space-between; */
+
 	height: 100%;
 	width: 240px;
 }
@@ -300,7 +291,7 @@
 }
 .quote-card-container {
 	display: flex;
-	/* align-items: center; */
+
 	justify-content: space-between;
 	overflow: hidden;
 	position: relative;
@@ -351,15 +342,7 @@
 }
 
 /* categories */
-.top-categories-container {
-	padding-top: 64px;
-	width: 100%;
-	max-width: 1320px;
-	margin-right: auto;
-	margin-left: auto;
-	padding-right: 2.4rem;
-	padding-left: 2.4rem;
-}
+
 .top-categories-head {
 	margin-bottom: 20px;
 }
@@ -378,4 +361,31 @@
 }
 .categories-text {
 	text-transform: capitalize;
+}
+/* feautered-topics*/
+.featured-topics {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+.topics-list {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+.topics-list-column {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+.topics-list-items-header {
+	padding-bottom: 20px;
+}
+.topics-list-items-header h5 {
+	font-size: 1.2rem;
+}
+.topics-list-items {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
