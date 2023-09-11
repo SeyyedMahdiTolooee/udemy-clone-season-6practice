@@ -408,7 +408,83 @@
 	margin-left: 10px;
 }
 /* udemy businesses section */
+.ud-business {
+	width: 100%;
+	max-width: 850px;
+	margin-right: auto;
+	margin-left: auto;
+}
 .udbs-section {
 	display: flex;
 	flex-direction: row;
+	justify-content: space-between;
+}
+.udbs-text {
+	width: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.udbs-text ul {
+	margin-left: 20px;
+}
+.udbs-text li {
+	list-style: disc;
+	font-weight: 200;
+	font-size: 1.2rem;
+	margin-bottom: 10px;
+}
+.udbs-text img {
+	width: 200px;
+}
+.udbs-image {
+	width: 400px;
+}
+
+.ud-footer {
+	background: #1c1d1f;
+	color: #f7f9fa;
+	border-top: 1px solid #3e4143;
+	padding: 30px;
+}
+.fotter-info {
+	display: flex;
+	justify-content: space-between;
+}
+.ud-footer a {
+	color: #f7f9fa;
+}
+.footer-info-text {
+	display: flex;
+}
+.footer-info-text li {
+	line-height: 1.8rem;
+}
+
+.footer-info-text > div {
+	margin-right: 80px;
+}
+.footer-info-btn {
+	border: 1px solid white;
+	height: 100%;
+}
+.footer-info-btn button {
+	justify-content: space-between;
+}
+
+.footer-info-btn button p {
+	margin-left: 10px;
+}
+.footer-logo {
+	margin-top: 40px;
+
+	display: flex;
+	justify-content: space-between;
+}
+.copy-right {
+	font-size: 0.75em;
+	color: #6a6f73;
+}
+.copy-right a {
+	color: #fff;
 }
