@@ -101,7 +101,7 @@
 	top: 42px;
 	left: 0px;
 	width: 320px;
-	height: 160px;
+	height: 163px;
 }
 .techitems {
 	display: flex;
@@ -111,7 +111,10 @@
 	padding: 14px;
 	text-align: center;
 }
-.techitems h4 {
+.techitems h5 {
+	font-size: 1.2rem;
+	font-weight: 500;
+	line-height: 1.3rem;
 	margin-bottom: 10px;
 }
 .cart {
@@ -291,7 +294,6 @@
 }
 .quote-card-container {
 	display: flex;
-
 	justify-content: space-between;
 	overflow: hidden;
 	position: relative;
@@ -358,6 +360,8 @@
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
+	font-weight: 500;
+	text-transform: capitalize;
 }
 .categories-text {
 	text-transform: capitalize;
@@ -382,10 +386,29 @@
 	padding-bottom: 20px;
 }
 .topics-list-items-header h5 {
-	font-size: 1.2rem;
+	font-size: 1.4rem;
 }
 .topics-list-items {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+}
+.topics-list-items div {
+	margin-bottom: 30px;
+}
+.topics-list-items a {
+	font-weight: 500;
+	color: #5624d0;
+
+	text-decoration: underline;
+}
+.topics-list-items p {
+	color: #6a6f73;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+/* udemy businesses section */
+.udbs-section {
+	display: flex;
+	flex-direction: row;
 }
